@@ -1,6 +1,7 @@
 
 <!DOCTYPE html> 
 <html lang="en"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
   
 <head> 
     <meta charset="UTF-8" /> 
@@ -8,22 +9,28 @@
         "width=device-width,  
         initial-scale=1.0" /> 
   
-    <title>Digital Clock</title> 
-  
+    <title>Digital Clock</title> <center>
+    <h style="font-size: 34px;">Digital Clock</h>
+  </center>
     <style> 
         #clock { 
-            font-size: 175px; 
-            width: 900px; 
-            margin: 200px; 
+            font-size: 50px; 
+            width: 500px; 
+            margin: 230px; 
             text-align: center; 
-            border: 5px solid blue; 
-            border-radius: 20px; 
+            border: 8px solid blue; 
+            border-radius: 10px; 
         } 
     </style> 
 </head> 
   
 <body style="background-color: lightblue;"> 
-    <div id="clock">8:10:45</div> 
+    <div id="clock">
+
+
+    8:10:45</div> 
+    <br><br>
+
   
     <script> 
         setInterval(showTime, 1000); 
