@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html><center>
-<body style="background-color: lightyellow;">
-  <u><h style="background-color: white; font-family: fantasy; font-weight: bold; font-style: italic; font-size: 34px; color: black;">Analog Clock by Anshika..</h></u>
   <br><br>
+<body style="background-color: lightyellow;">
+  <u><h style="background-color: white; font-family: fantasy; font-weight: bold; font-style: italic; font-size: 34px; color: black;">Analog Clock </h></u>
+  <br><br><br><br><br>
 <div class="div1" style="align-items: center;">
-<canvas id="canvas" width="400px" height="400px"
+<canvas id="canvas" width="400px" height="500px"
 style=" align-content: center;">
 </canvas>
 
@@ -32,7 +33,7 @@ function drawFace(ctx, radius) {
   ctx.fill();
   grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
   grad.addColorStop(0, '#333');
-  grad.addColorStop(0.5, 'pink');
+  grad.addColorStop(0.5, 'white');
   grad.addColorStop(1, '#333');
   ctx.strokeStyle = grad;
   ctx.lineWidth = radius*0.1;
